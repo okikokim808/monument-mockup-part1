@@ -1,8 +1,14 @@
 *{
     width: 100%;
+    text-decoration: none;
+    list-style:none;
+    font-family: 'Raleway', serif;
 }
 nav ul{
     display: flex;
     justify-content: center;
     width: 100%;
+}
+h1{
+    text-align: center;
 }
