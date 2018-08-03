@@ -1,14 +1,88 @@
 *{
     width: 100%;
     text-decoration: none;
-    list-style:none;
     font-family: 'Raleway', serif;
+    font-weight: 700;
+    color: dimgray;
+    padding: 0;
+    margin: 0;
 }
-nav ul{
+body{
+    margin: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+nav{
+    border: solid 1px black;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     width: 100%;
 }
-h1{
+header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header li a{
+    margin: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+header li{
     text-align: center;
+    font-size: 8px;
+    list-style: none;
+    color: lightblue;
+}
+p{
+    font-family: lato;
+    font-weight: lighter;
+    color: darkgray;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a:visited{
+    text-decoration: none; color: lightblue;
+}
+footer li{
+    margin-bottom: 2.5px;
+    list-style: none;
+    font-size: 10px;
+}
+footer a:visited{
+    color:dimgray;
+}
+footer{
+    background-color: lightcyan;
+    text-align: center;
+    color: dimgray;
+    position: cover;
+    padding-bottom: 2.5px;
+}
+header h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h2{
+    margin:10px;
+    margin-left: 0;
+    font-size: 11px;
+}
+h3{
+    font-size: 12.5px;
+}
+.issues{
+    margin-left:40px;
+    font-size: 10px;
+}
+.hipsters{
+    width: 50%;
 }
