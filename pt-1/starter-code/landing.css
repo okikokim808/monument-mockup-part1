@@ -1,4 +1,4 @@
-/* form {
+form {
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
     grid-template-columns: repeat(3,1fr);
@@ -7,5 +7,40 @@
 }
 
 input {
-    margin:
-} */
+    margin: 10px;
+    border: solid silver 3px;
+    font-size: 2em;
+}
+.name{
+    grid-row: 1/ span 1;
+    grid-column: 1/ span 1;
+}
+.email{
+    grid-row: 1/span 1;
+    grid-column: 2/ span 1;
+}
+.subject{
+    grid-row: 1/span 1;
+    grid-column: 3/span 1;
+}
+.message{
+    grid-row: 2/span 1;
+    grid-column: 1/span 3;
+    resize: none;
+    margin: 10px;
+    border: solid silver 3px;
+    font-size: 2em;
+}
+.submit{
+    grid-row: 3/span 1;
+    grid-column: 1/span 3;
+}
+@media screen and (max-width: 700px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit{
+        padding: 20px 20px 40px 20px;
+    }
+}
