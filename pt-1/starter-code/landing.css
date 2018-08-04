@@ -3,6 +3,7 @@
     list-style: none;
     color: black;
 }
+/* top and bottom nav bars */
 ul{
     display: flex;
     flex-direction: row;
@@ -12,18 +13,29 @@ li{
     margin-left: 30px;
     margin-right: 30px;
 }
+/* words on image */
 .header{
     position: relative;
     text-align: center;
-    color: white;
 }
-.center{
+/* monument */
+.center1{
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 40px;
 }
+/* a life style magazine */
+.center2{ 
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top:40px;
+} 
 /* this is the bigger form at bottom of page */
 .comment{
     display: grid;
