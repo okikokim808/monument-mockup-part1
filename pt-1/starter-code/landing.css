@@ -1,5 +1,28 @@
-.imgGallery img{
+*{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header{
     position: relative;
+    text-align: center;
+    color: white;
+}
+.center{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* this is the bigger form at bottom of page */
 .comment{
