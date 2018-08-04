@@ -1,11 +1,14 @@
-form {
+.imgGallery img{
+    position: relative;
+}
+/* this is the bigger form at bottom of page */
+.comment{
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
     grid-template-columns: repeat(3,1fr);
     height: 50vh;
     margin: 50px;
 }
-
 input {
     margin: 10px;
     border: solid silver 3px;
@@ -35,6 +38,7 @@ input {
     grid-row: 3/span 1;
     grid-column: 1/span 3;
 }
+/* media querey for form (so far) */
 @media screen and (max-width: 700px){
     form{
         display: flex;
