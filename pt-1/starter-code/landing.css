@@ -1,8 +1,8 @@
 *{
     text-decoration: none;
     list-style: none;
-    color: black;
-    font-size: .5vw;
+    color: #6C707A;
+    font-size: 1.5vw;
     font-family: 'Raleway', serif;
 }
 body{
@@ -33,6 +33,11 @@ header img{
     text-align: center;
     width: 100%;
 }
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /* monument */
 .center1{
     color: white;
@@ -40,8 +45,8 @@ header img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-bottom: 40px;
-    font-size: 50px;
+    padding-bottom: 5vh;
+    font-size: 3.0vw;
 }
 /* a life style magazine */
 .center2{ 
@@ -50,7 +55,7 @@ header img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top:50px;
+    padding-top: 5vh;
 } 
 /* 3 articles */
 h2{
@@ -72,6 +77,7 @@ h2{
 }
 #archive p{
     text-align: center;
+    color: #9599A8;
 }
 /* about the mag */
 .ATM{
@@ -85,7 +91,9 @@ h2{
 .ATM p{
     width: 80%;
 }
+
 /* this is the bigger form at bottom of page */
+
 .comment{
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
