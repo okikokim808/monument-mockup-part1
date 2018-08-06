@@ -69,7 +69,12 @@ footer li{
     width: 14%;
     margin-bottom: 2.5px;
     list-style: none;
-    font-size: 1vwa;
+}
+footer ul{
+    width: 50%;
+}
+footer i{
+    font-size: 3.5vw;
 }
 footer a:visited{
     color:dimgray;
@@ -79,18 +84,16 @@ footer{
     text-align: center;
     color: dimgray;
     position: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
     padding-bottom: 2.5px;
 }
 footer p{
     max-width: 100%;
 }
-header h1{
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 4vw;
-}
+
 img{
     position: relative;
 }
@@ -120,4 +123,11 @@ h3{
     width: 50%;
     margin-bottom: 2vh;
     margin-top: 2vh;
+}
+header h1{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4vw;
 }
