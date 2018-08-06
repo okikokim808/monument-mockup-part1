@@ -21,6 +21,9 @@ li{
     margin-left: 30px;
     margin-right: 30px;
 }
+a{
+    font-size: 1.3vw;
+}
 /* words on image */
 header{
     width: 100%;
@@ -78,7 +81,13 @@ h2{
 #archive p{
     text-align: center;
     color: #9599A8;
+    font-size: 1.2vw;
 }
+.more{
+    border: solid 1px black;
+    padding: .5vh 1vw;
+}
+
 /* about the mag */
 .ATM{
     background-color: lightcyan;
@@ -87,30 +96,37 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 .ATM p{
-    width: 80%;
+    width: 70%;
 }
-
+/* grid formated gallery */
+.imgGallery{
+    display: grid;
+    /* grid */
+}
 /* this is the bigger form at bottom of page */
 
 .comment{
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
     grid-template-columns: repeat(3,1fr);
-    height: 20vh;
-    margin: 50px;
+    height: 40vh;
+    margin: 10vh;
 }
 input {
-    margin: 10px;
-    border: solid silver 3px;
-    font-size: 2em;
+    width: 25vw;
+    margin: 5px;
+    border: solid silver 2px;
+    font-size: 1em;
 }
 .name{
     grid-row: 1/ span 1;
     grid-column: 1/ span 1;
 }
-.email{
+.form .email{
     grid-row: 1/span 1;
     grid-column: 2/ span 1;
 }
@@ -122,13 +138,34 @@ input {
     grid-row: 2/span 1;
     grid-column: 1/span 3;
     resize: none;
-    margin: 10px;
-    border: solid silver 3px;
-    font-size: 2em;
+    margin: 5px;
+    border: solid silver 2px;
+    font-size: 1em;
 }
 .submit{
+    width: auto;
     grid-row: 3/span 1;
     grid-column: 1/span 3;
+}
+/* footer */
+footer{
+    background-color: lightcyan;
+    width: 100%;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.submit2{
+    width: 12.5%;
+}
+.email2{
+    width: 25%;
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
 /* media querey for form (so far) */
 @media screen and (max-width: 700px){
