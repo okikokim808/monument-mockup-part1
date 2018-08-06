@@ -6,6 +6,7 @@
     color: dimgray;
     padding: 0;
     margin: 0;
+    font-size: 2vh; 
 }
 html{
     padding: 0;
@@ -38,6 +39,7 @@ header{
 }
 
 header li a{
+    font-size: 1.5vw;
     margin: 10px;
 }
 nav ul{
@@ -46,7 +48,7 @@ nav ul{
 }
 header li{
     text-align: center;
-    font-size: 8px;
+    font-size: .5vw;
     list-style: none;
     color: lightblue;
     width: 12.5%;
@@ -55,10 +57,10 @@ p{
     font-family: lato;
     font-weight: lighter;
     color: darkgray;
-    font-size: 10px;
+    font-size: 1.5vw;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width:80%;
+    max-width:100%;
 }
 a:visited{
     text-decoration: none; color: lightblue;
@@ -67,7 +69,7 @@ footer li{
     width: 14%;
     margin-bottom: 2.5px;
     list-style: none;
-    font-size: 10px;
+    font-size: 1vwa;
 }
 footer a:visited{
     color:dimgray;
@@ -83,27 +85,39 @@ footer p{
     max-width: 100%;
 }
 header h1{
+    letter-spacing: 5px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 4vw;
 }
 img{
     position: relative;
 }
+
 h2{
     margin:10px;
     margin-left: 0;
-    font-size: 11px;
+    font-size: 2.5vw;
 }
 h3{
-    font-size: 12.5px;
+    font-size: 2vw;
+}
+.issues a{
+    font-size: 1.8vw;
 }
 .issues{
     margin-left:40px;
-    font-size: 10px;
     width: 50%;
+    margin-bottom: 2vh;
+    margin-top: 1.5vh;
+}
+.artimg{
+    padding-bottom: 1vh;
+    padding-top: 1vh;
 }
 .hipsters{
     width: 50%;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 }

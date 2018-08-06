@@ -217,8 +217,8 @@ footer li{
 }
 /* media querey for form (so far) */
 @media screen and (max-width: 700px){
-    form{
-        display: flex;
+    body{
+        display:flex;
         flex-direction: column;
     }
 }
